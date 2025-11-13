@@ -18,7 +18,7 @@ html, body {
 
     background-color: #DEDAC0;
 
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -130,7 +130,7 @@ html, body {
 }
 
 .formulario {
-
+    margin-inline: 73px;
     textarea::placeholder, input::placeholder {
         color: #848484;
     }
@@ -146,15 +146,19 @@ html, body {
     }
     
     textarea {
-    min-width: 300px;
-    min-height: 105px;
-    overflow: auto;
-    resize: none;
+        padding-top: 12px;
+        min-width: 300px;
+        min-height: 105px;
+        overflow: auto;
+        resize: none;
     }
 
     textarea, input {
+        padding-left:15px;
         margin-block: 10px;
-        font-family: Arial, Helvetica, sans-serif; 
+        font-size:15px;
+        font-weight: bold;
+        font-family: monospace;
         background-color: #D9D9D9;
         border: 0px;
     }
