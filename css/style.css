@@ -147,9 +147,12 @@ a {
 .topodetalhes {
     flex-direction: row;
     align-items: center;
+
+    position: relative;
+    top: 50px;
     h1 {
         font-family: "Red Rose", Arial, Helvetica, sans-serif;
-        font-size: 40px;
+        font-size: 45px;
     }
     h2 {
         font-family: "Red Rose", Arial, Helvetica, sans-serif;
@@ -161,7 +164,7 @@ a {
     p {
         font-size: 24px;
     }
-    margin-left: 94px;
+    margin-left: 45px;
 }
 
 .infodetalhes {
@@ -171,14 +174,18 @@ a {
         font-family: "Orienta", Arial, Helvetica, sans-serif;
         margin-block: 3px;
     }
-    margin-bottom: 68px;
+    margin-bottom: 78px;
 }
 
 .precodetalhes {
+    position: relative;
+    top:10px;
     color: #69FF91;
+    font-family: "Orienta", Arial, Helvetica, sans-serif;
 }
 
 .adicionarcarrinho {
+    zoom:90%;
     flex-direction: row;
     align-items: center;
 
@@ -199,6 +206,8 @@ a {
         position: relative;
         left: -20px;
     }
+
+    margin-bottom:85px;
 }
 
 /*PÁGINA DE CONTATO*/
