@@ -5,6 +5,10 @@ html, body {
     margin: 0px;
 }   
 
+a {
+    text-decoration: none;
+}
+
 .flex {
     display: flex;
 }
@@ -21,6 +25,16 @@ html, body {
     font-size: 23px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+
+    figure {
+        position: relative;
+        left: 15px;
+    }
+
+    h1 {
+        position: relative;
+        right: 15px;
+    }
 }
 
 .nav-header {
@@ -29,7 +43,6 @@ html, body {
     background-color: #CEC3B2;
 
     a {
-        text-decoration: none;
         color: black;
     }
 }
@@ -92,12 +105,69 @@ html, body {
 
     min-height: 350px;
     min-width: 230px;
+
     border-radius: 30px;
-    margin-inline: 20px;
+    margin-inline: 20px;   
 }
 
 /*PÁGINA DE DETALHES*/ 
 
+.bodydetalhes {
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: #21211D;
+    min-height: 100vh;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.figuredetalhes {
+    justify-content: center;
+    align-items: center;
+
+    background-color: #D9D9D9;
+
+    min-width: 467px;
+    min-height: 582px;  
+
+    border-radius: 30px;
+    margin-inline: 20px;
+}
+
+.topodetalhes {
+    flex-direction: row;
+    align-items: center;
+}
+
+.asidedetalhes {}
+
+.adicionarcarrinho {
+    flex-direction: row;
+    align-items: center;
+
+    min-height: 113px;
+    min-width: 454px;
+    
+    
+    font-weight: bold;
+    background-color: #5B48FF;
+
+    figure {
+        position: relative;
+        left: -10px;
+    }
+    p {
+        zoom: 150%;
+        color:white;    
+        position: relative;
+        left: -20px;
+    }
+}
 
 /*PÁGINA DE CONTATO*/
 
@@ -115,12 +185,20 @@ html, body {
 }
 
 .contatotexto {
+    align-items: center;
+    position: relative;
+    left:-270px;
     flex-wrap: wrap;
 
     font-size: 20px;
     color:white;
 
     background-color: #21211D;
+
+    figure {
+        position:relative;
+        left: -30px;
+    }
 }
 
 .linhaform {
@@ -130,6 +208,9 @@ html, body {
 }
 
 .formulario {
+    position: relative;
+    top:-60px;
+
     margin-inline: 73px;
     textarea::placeholder, input::placeholder {
         color: #848484;
