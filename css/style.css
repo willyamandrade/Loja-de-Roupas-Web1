@@ -3,6 +3,7 @@
 /*Fontes de texto usadas no site*/
 @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Orienta&family=Red+Rose:wght@300..700&family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
 html, body {
     flex-direction: column;
     margin: 0px;
@@ -89,6 +90,7 @@ a {
 
 /*PÁGINA INICIAL*/
 
+
 .bodyinicio {
     flex-direction: row;
     justify-content: space-evenly;
@@ -117,6 +119,7 @@ a {
 
 /*PÁGINA DE DETALHES*/ 
 
+
 .bodydetalhes {
     flex-direction: row;
     justify-content: space-evenly;
@@ -127,8 +130,9 @@ a {
     background-color: #21211D;
     min-height: 100vh;
     
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Scada", Arial, Helvetica, sans-serif;
     color:white;
+    gap:40px;
 }
 
 .figuredetalhes {
@@ -141,15 +145,19 @@ a {
     min-height: 582px;  
 
     border-radius: 30px;
-    margin-inline: 20px;
+}
+
+.asidedetalhes {
+    p {font-size: 25px;}
 }
 
 .topodetalhes {
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
 
-    position: relative;
+    position:relative;
     top: 50px;
+    
     h1 {
         font-family: "Red Rose", Arial, Helvetica, sans-serif;
         font-size: 45px;
@@ -160,11 +168,11 @@ a {
     }
 }
 
-.asidedetalhes {
-    p {
-        font-size: 24px;
-    }
-    margin-left: 45px;
+.precodetalhes {
+    position: relative;
+    top:10px;
+    color: #69FF91;
+    font-family: "Orienta", Arial, Helvetica, sans-serif;
 }
 
 .infodetalhes {
@@ -177,21 +185,13 @@ a {
     margin-bottom: 78px;
 }
 
-.precodetalhes {
-    position: relative;
-    top:10px;
-    color: #69FF91;
-    font-family: "Orienta", Arial, Helvetica, sans-serif;
-}
-
 .adicionarcarrinho {
     zoom:90%;
     flex-direction: row;
     align-items: center;
 
-    min-height: 113px;
-    min-width: 454px;
-    
+    max-height: 95px;
+    max-width: 490px;
     
     font-weight: bold;
     background-color: #5B48FF;
@@ -201,14 +201,15 @@ a {
         left: -10px;
     }
     p {
-        zoom: 150%;
+        font-size: 34px;
         color:white;    
         position: relative;
-        left: -20px;
+        left: -30px;
     }
 
     margin-bottom:85px;
 }
+
 
 /*PÁGINA DE CONTATO*/
 
@@ -228,10 +229,10 @@ a {
 .contatotexto {
     align-items: center;
     position: relative;
-    left:-333px;
+    left:-350px;
     flex-wrap: wrap;
 
-    font-size: 20px;
+    font-size: 23px;
     color:white;
 
     background-color: #21211D;
@@ -243,17 +244,16 @@ a {
 }
 
 .linhaform {
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Red Rose", monospace, Arial, Helvetica, sans-serif;
     font-weight: bold;
+    gap:85px;
 }
 
 .formulario {
-    zoom:125%;
+    zoom: 150%;
     position: relative;
     top:-60px;
-
-    margin-inline: 73px;
 
     textarea::placeholder, input::placeholder {
         font-family: "Scada", Arial, Helvetica, sans-serif;
@@ -282,7 +282,7 @@ a {
     textarea, input {
         padding-left:15px;
         margin-block: 10px;
-        font-size:15px;
+        font-size:17px;
         font-weight: bold;
         font-family: monospace;
         background-color: #D9D9D9;
