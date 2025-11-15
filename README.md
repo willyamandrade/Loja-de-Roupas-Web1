@@ -1,15 +1,7 @@
 # Loja de Roupas - Desenvolvimento Web 1
 
 <head>
-    <style>
-        .imagens {
-            border: 2px solid white;
-            border-radius: 15px;
-            padding: 5%;
-            gap: 3vw;
-            margin-block: 5vh;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 **Aluno:** Willyam Andrade Medeiros  
